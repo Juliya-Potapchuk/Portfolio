@@ -1,0 +1,1142 @@
+
+@font-face {
+    font-family: 'Lucida Sans';
+    src: url('assets/fonts/LucidaSans.eot');
+    src: url('assets/fonts/LucidaSans.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/LucidaSans.woff2') format('woff2'),
+    url('assets/fonts/LucidaSans.woff') format('woff'),
+    url('assets/fonts/LucidaSans.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe WP';
+    src: url('assets/fonts/SegoeWP.eot');
+    src: url('assets/fonts/SegoeWP.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeWP.woff2') format('woff2'),
+    url('assets/fonts/SegoeWP.woff') format('woff'),
+    url('assets/fonts/SegoeWP.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Lucida Sans';
+    src: url('assets/fonts/LucidaSans-Italic.eot');
+    src: url('assets/fonts/LucidaSans-Italic.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/LucidaSans-Italic.woff2') format('woff2'),
+    url('assets/fonts/LucidaSans-Italic.woff') format('woff'),
+    url('assets/fonts/LucidaSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Asap';
+    src: url('assets/fonts/Asap-Regular.eot');
+    src: url('assets/fonts/Asap-Regular.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/Asap-Regular.woff2') format('woff2'),
+    url('assets/fonts/Asap-Regular.woff') format('woff'),
+    url('assets/fonts/Asap-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe WP';
+    src: url('assets/fonts/SegoeWP-Light.eot');
+    src: url('assets/fonts/SegoeWP-Light.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeWP-Light.woff2') format('woff2'),
+    url('assets/fonts/SegoeWP-Light.woff') format('woff'),
+    url('assets/fonts/SegoeWP-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans Caption';
+    src: url('assets/fonts/ptsans/PTSans-CaptionBold.eot');
+    src: url('assets/fonts/ptsans/PTSans-CaptionBold.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/ptsans/PTSans-CaptionBold.woff2') format('woff2'),
+    url('assets/fonts/ptsans/PTSans-CaptionBold.woff') format('woff'),
+    url('assets/fonts/ptsans/PTSans-CaptionBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans Narrow';
+    src: url('assets/fonts/ptsans/PTSans-NarrowBold.eot');
+    src: url('assets/fonts/ptsans/PTSans-NarrowBold.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/ptsans/PTSans-NarrowBold.woff2') format('woff2'),
+    url('assets/fonts/ptsans/PTSans-NarrowBold.woff') format('woff'),
+    url('assets/fonts/ptsans/PTSans-NarrowBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans Caption';
+    src: url('assets/fonts/ptsans/PTSans-Caption.eot');
+    src: url('assets/fonts/ptsans/PTSans-Caption.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/ptsans/PTSans-Caption.woff2') format('woff2'),
+    url('assets/fonts/ptsans/PTSans-Caption.woff') format('woff'),
+    url('assets/fonts/ptsans/PTSans-Caption.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('assets/fonts/ptsans/PTSans-BoldItalic.eot');
+    src: url('assets/fonts/ptsans/PTSans-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/ptsans/PTSans-BoldItalic.woff2') format('woff2'),
+    url('assets/fonts/ptsans/PTSans-BoldItalic.woff') format('woff'),
+    url('assets/fonts/ptsans/PTSans-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('assets/fonts/ptsans/PTSans-Bold.eot');
+    src: url('assets/fonts/ptsans/PTSans-Bold.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/ptsans/PTSans-Bold.woff2') format('woff2'),
+    url('assets/fonts/ptsans/PTSans-Bold.woff') format('woff'),
+    url('assets/fonts/ptsans/PTSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('assets/fonts/ptsans/PTSans-Regular.eot');
+    src: url('assets/fonts/ptsans/PTSans-Regular.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/ptsans/PTSans-Regular.woff2') format('woff2'),
+    url('assets/fonts/ptsans/PTSans-Regular.woff') format('woff'),
+    url('assets/fonts/ptsans/PTSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans Narrow';
+    src: url('assets/fonts/ptsans/PTSans-Narrow.eot');
+    src: url('assets/fonts/ptsans/PTSans-Narrow.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/ptsans/PTSans-Narrow.woff2') format('woff2'),
+    url('assets/fonts/ptsans/PTSans-Narrow.woff') format('woff'),
+    url('assets/fonts/ptsans/PTSans-Narrow.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PT Sans';
+    src: url('assets/fonts/ptsans/PTSans-Italic.eot');
+    src: url('assets/fonts/ptsans/PTSans-Italic.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/ptsans/PTSans-Italic.woff2') format('woff2'),
+    url('assets/fonts/ptsans/PTSans-Italic.woff') format('woff'),
+    url('assets/fonts/ptsans/PTSans-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI-BoldItalic.eot');
+    src: url('assets/fonts/SegoeUI-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeUI-BoldItalic.woff2') format('woff2'),
+    url('assets/fonts/SegoeUI-BoldItalic.woff') format('woff'),
+    url('assets/fonts/SegoeUI-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI-Bold.eot');
+    src: url('assets/fonts/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeUI-Bold.woff2') format('woff2'),
+    url('assets/fonts/SegoeUI-Bold.woff') format('woff'),
+    url('assets/fonts/SegoeUI-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI-Italic.eot');
+    src: url('assets/fonts/SegoeUI-Italic.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeUI-Italic.woff2') format('woff2'),
+    url('assets/fonts/SegoeUI-Italic.woff') format('woff'),
+    url('assets/fonts/SegoeUI-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI.eot');
+    src: url('assets/fonts/SegoeUI.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeUI.woff2') format('woff2'),
+    url('assets/fonts/SegoeUI.woff') format('woff'),
+    url('assets/fonts/SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('assets/fonts/SegoeUI-Light.eot');
+    src: url('assets/fonts/SegoeUI-Light.eot?#iefix') format('embedded-opentype'),
+    url('assets/fonts/SegoeUI-Light.woff2') format('woff2'),
+    url('assets/fonts/SegoeUI-Light.woff') format('woff'),
+    url('assets/fonts/SegoeUI-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: local('Open Sans'), local('OpenSans'),
+    url('assets/fonts/open-sans/opensans.woff2') format('woff2'),
+    url('assets/fonts/open-sans/opensans.woff') format('woff'),
+    url('assets/fonts/open-sans/opensans.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+                                               /*BODY*/
+body {
+     width: 100vw;
+}
+
+.background-rules {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.background-header {
+    position: relative;
+    min-height:566px;
+    background-image: url("./assets/images/backgr_2.png"),
+                      url("./assets/images/backgr_1.png");
+    z-index: 1;
+}
+
+.wrapper-width {
+    max-width: 1020px;
+    margin: 0 auto;
+    box-sizing: border-box;
+
+}
+                                                     /*HEADER*/
+header {
+    display:flex;
+    justify-content: space-between;
+    height: 112px;
+    align-items: flex-end;
+    }
+
+.header-logo {
+    display: flex;
+    margin-top: 16px;
+    width: 320px;
+    height: 84px;
+}
+
+.header-logo-picture {
+    width: 84px;
+    height: 84px;
+    background-image: url("./assets/images/theyalow_logo.svg");
+    background-size: cover;
+}
+
+h1 {
+    font-size: 41px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    text-transform: uppercase;
+    margin: 27px 0 0 3px;
+}
+
+.logo-letters {
+    letter-spacing: 0.7px;
+}
+
+.main-menu {
+    display: flex;
+    list-style: none;
+    width: 453px;
+    height: 41px;
+    box-shadow: -4px -5px 0 rgba(245, 197, 6, .27),  -8px -8px 0 rgba(245, 197, 6, .27);
+    background-color: #f5c506;
+}
+.main-menu li:hover {
+    background-color: rgba(161, 127, 5, 0.27);
+}
+
+.main-menu li:nth-child(1), .main-menu li:nth-child(2){
+    border-right: 2px solid #dcb105;
+}
+
+.main-menu a {
+    font-family: 'Segoe WP', Verdana, sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    height: 100%;
+    padding-top: 12px;
+    position: relative;
+    display: block;
+    text-transform: uppercase;
+    font-size: 17px;
+    color: #9b7d08;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+.menu-company a {
+    padding-left: 70px;
+    width: 172px;
+}
+
+.menu-services a{
+    padding-left: 41px;
+    width: 131px;
+   }
+
+.menu-contact a{
+    padding-left: 48px;
+    width: 147px;
+}
+
+.menu-company::before {
+    display: block;
+    content: "";
+    background-image: url("./assets/images/about_us.svg");
+    width: 24px;
+    height: 20px;
+    position: absolute;
+    margin: 10px 20px 10px 38px;
+}
+
+.menu-services::before {
+    display: block;
+    content: "";
+    background-image: url("./assets/images/services.svg");
+    width: 21px;
+    height: 19px;
+    position: absolute;
+    margin: 10px 20px 10px 12px;
+}
+
+.menu-contact::before {
+    display: block;
+    content: "";
+    background-image: url("./assets/images/contact.svg");
+    width: 25px;
+    height: 19px;
+    position: absolute;
+    margin: 10px 20px 10px 15px;
+}
+                                                   /*MAIN/VIDEO*/
+main {
+    margin-top:-398px;
+
+}
+section.video-block {
+    height: 327px;
+    position: relative;
+    z-index: 2;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 71px;
+}
+
+.button-video-block-left {
+    height: 60px;
+    width: 32px;
+    margin-top: 130px;
+    background-image: url("./assets/images/button_left.png");
+}
+
+.button-video-block-right {
+    height: 60px;
+    width: 33px;
+    margin-top: 131px;
+    background-image: url("./assets/images/button_right.png");
+}
+
+.video-text {
+    width: 100%;
+    height: 327px;
+    margin-left: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+video{
+    object-fit: fill;
+}
+
+.video-block-h2 {
+    padding: 73px 0 0 7px;
+    font-family: Asap, Verdana, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    height: 327px;
+    width: 751px;
+    font-size: 63px;
+    text-align: center;
+    color: #f5c506;
+    letter-spacing: 0.7px;
+    text-transform: uppercase;
+    line-height: 76px;
+}
+
+.video-h2-span {
+    color: #ffffff;
+    margin-left: 16px;
+}
+
+                                                   /*ICON AREA*/
+.advantages {
+    position: relative;
+    z-index: 2;
+    border-top: 1px solid #f5c007;
+    background-image: url("./assets/images/backgr_3.png");
+    background-color: #ffffff;
+    box-shadow: -4px 0 3px 3px rgba(42,37,20,0.26);
+    height: 210px;
+    border-bottom: 1px solid #d4d4d4;
+}
+
+.advantages .wrapper-width {
+    display: flex;
+}
+
+.advantages .wrapper-width .better-design, .advantages .wrapper-width .customise, .advantages .wrapper-width .its-free {
+    border-left: 2px solid #d4d4d4;
+    width: 340px;
+    height: 210px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.advantages .wrapper-width .its-free {
+    border-right: 2px solid #d4d4d4;
+}
+
+.advantages-name {
+    font-size: 27px;
+    letter-spacing: 0.3px;
+    color: #000000;
+    font-family: "Segoe UI",  Verdana, sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    }
+
+.better-design svg {
+    margin: 22px 7px 7px 0;
+}
+
+.better-design h2 {
+    margin-left: 17px;
+}
+
+.customise svg {
+    margin: -1px 0 17px 16px;
+}
+
+.customise  h2 {
+     margin-left: 20px;
+}
+
+.its-free svg {
+    margin: 17px 21px 6px 0;
+}
+
+.its-free h2 {
+    margin-right: 15px;
+}
+                                                     /*TWITTER*/
+
+.twitter-block {
+    position: relative;
+    background-image: url("./assets/images/backgr_4.2.png"),
+                      url("./assets/images/backgr_4.1.png");
+    height: 508px;
+    z-index: 1;
+   }
+
+.twitter-block .wrapper-width h2 {
+    padding: 37px 0 36px 0;
+    font-size: 37px;
+    letter-spacing: 0.4px;
+    color: #ffffff;
+    font-family: "PT Sans", Verdana, sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.twitter-post-icon {
+    display: flex;
+    justify-content: space-between;
+}
+
+.twitter-post {
+    display: flex;
+     width: 656px;
+    flex-wrap: wrap;
+    height: 319px;
+    margin-left: -1px;
+}
+
+.twitter-post-text {
+    background-color: #ec9e03;
+    width: 341px;
+    height: 233px;
+}
+
+.twitter-post p {
+    margin: 16px 30px;
+    font-size: 29px;
+    line-height: 38px;
+    color: #ffffff;
+    font-family: "Segoe WP", Verdana, sans-serif;
+    font-weight: 300;
+    height: 173px;
+}
+
+.twitter-post-text a img {
+    margin: 2px 0 0 314px;
+}
+
+.twitter-post .date {
+    text-align: center;
+    width: 113px;
+    height: 86px;
+    background-color: #ddb101;
+  }
+
+.twitter-post .date span:first-child {
+    margin-left: 5px;
+    font-size: 51px;
+    letter-spacing: 1px;
+    line-height: 63px;
+    color: #ffffff;
+    font-family: "Segoe UI", Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.twitter-post .date span:last-child {
+    font-size: 21px;
+    line-height: 11px;
+    color: #b26529;
+    font-family: "Segoe UI", Verdana, sans-serif;
+    margin-left: 5px;
+    text-transform: uppercase;
+}
+                                          /*For mobile twitts/start*/
+
+.icon-twitts {
+    display: none;
+    background-color: #f5c507;
+    height: 233px;
+    width:640px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -233px;
+   }
+
+.bird-twitter_mobile{
+    padding: 57px 79px;
+}
+
+.twitts {
+    height: 233px;
+    width: 316px;
+    padding-top: 22px;
+}
+
+.twitter-message {
+    height: 45px;
+    width: 291px;
+    margin-bottom: 11px;
+    font-size: 13px;
+    letter-spacing: 0;
+    color: #8f8e8e;
+    font-family: "Arial", Verdana, sans-serif;
+   }
+
+.twitter-message p {
+    padding: 13px 0 0 28px;
+    line-height: 5px;
+    letter-spacing: 0.3px;
+}
+
+.twitter-message p:first-child {
+    text-transform: capitalize;
+    }
+
+.twitter-message p span {
+    text-transform: uppercase;
+}
+
+ .message-1 {
+    background-image: url("./assets/images/twitts1.png");
+   }
+
+.message-2 {
+    background-image: url("./assets/images/twitts2.png");
+}
+
+.message-3 {
+    background-image: url("./assets/images/twitts3.png");
+}
+
+.entry_area {
+    display: flex;
+    width: 271px;
+    height: 29px;
+    flex-wrap: nowrap;
+    margin-left: 12px;
+}
+
+input[type="text"] {
+    width: 201px;
+    height: 29px;
+    border-radius: 10px 0 0 10px;
+    background-color: #ffffff;
+    border: 1px solid #d0a706;
+    border-right: none;
+    margin-right: -5px;
+}
+input[type="submit"] {
+    border: 1px solid #d0a706;
+    border-left: none;
+    width: 69px;
+    height: 31px;
+    border-radius: 0 10px 10px 0;
+    background-color: #eaa927;
+    font-size: 15px;
+    color: #ffffff;
+    font-family: "Arial", Verdana, sans-serif;
+}
+                                           /*For mobile twitts/end*/
+.twitter-icon {
+    width: 329px;
+    height: 233px;
+    background-color: #ec9e03;
+    margin-right: 2px;
+}
+
+.twitter-post-icon .twitter-icon {
+    width: 329px;
+    height: 233px;
+    background-color: #ec9e03;
+    margin-right: 2px;
+}
+
+.twitter-icon .bird-twitter {
+    display: block;
+    margin: 2px 0 -9px 76px;
+}
+
+.twitter-icon span {
+    font-size: 25px;
+    letter-spacing: 0.5px;
+    line-height: 55px;
+    color: #ffffff;
+    font-family: "Segoe WP", Verdana, sans-serif;
+    font-weight: 300;
+    margin: 0 285px;
+}
+
+.twitter-icon a img {
+    margin-left: 307px;
+}
+
+.range {
+    -webkit-appearance: none;
+    width: 896px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: rgba(255,255,255,0.48);
+    margin:43px 0 0 73px;
+    outline: none;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 197px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #ec9e03;
+    cursor: pointer ;
+
+}
+
+.range::-moz-range-track {
+    -moz-appearance: none;
+    width: 896px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: rgba(255,255,255,0.48);
+    margin:43px 0 0 73px;
+    outline: none;
+}
+
+.range::-moz-range-thumb {
+    -moz-appearance: none;
+    width: 197px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #ec9e03;
+    cursor: pointer ;
+
+}
+
+.range::-ms-lower, .range::-ms-track {
+    width: 896px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: rgba(255,255,255,0.48);
+    margin:43px 0 0 73px;
+    outline: none;
+}
+
+.range::-ms-thumb{
+    width: 197px;
+    height: 15px;
+    border-radius: 7px;
+    background-color: #ec9e03;
+    cursor: pointer ;
+
+}
+                                         /*FLEXIBILITY*/
+
+.flexibility {
+    background-image: url("./assets/images/backgr_5.png");
+    height:499px;
+}
+
+.flexibility .wrapper-width h2 {
+    line-height: 128px;
+    width: 918px;
+    height: 130px;
+    font-size: 43px;
+    letter-spacing: 0.5px;
+    color: #f5c506;
+    font-family: "PT Sans", Verdana, sans-serif;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+    margin-left: 53px;
+}
+
+.devices {
+    position: relative;
+    height: 305px;
+    display: flex;
+    justify-content: space-between;
+    margin: 7px 0 0 18px;
+}
+
+.devices::before {
+    display: block;
+    content: "Its 100% free";
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    border-radius: 58px;
+    background-color: #f5c506;
+    font-size: 19px;
+    color: #ffffff;
+    font-family: "PT Sans Narrow", Verdana, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 116px;
+    text-align: center;
+    margin: -43px 0 0 -20px;
+}
+
+.devices-icons {
+    display: flex;
+    justify-content: space-between;
+    width: 541px;
+}
+
+.devices-icons img:nth-child(2) {
+    margin: 42px 2px 0 0;
+}
+
+.devices-icons img:nth-child(3) {
+    margin: 152px 1px 0 0;
+}
+
+.devices-description {
+    padding-top: 45px;
+    width: 349px;
+    line-height: 26px;
+    position: relative;
+   }
+
+.devices-description li::before {
+    position: absolute;
+    display: block;
+    content: "";
+    border-radius: 58px;
+    background-color: #f5c506;
+    width: 14px;
+    height: 14px;
+    margin: 7px 0 0 -33px;
+}
+
+.devices-description li {
+    letter-spacing: 0.2px;
+    font-size: 22px;
+    color: #a9a9a7;
+    font-family: "Open Sans", Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.devices-description li:nth-child(2) {
+    margin: 22px 0 14px 0;
+   }
+
+.devices-description li:nth-child(3 ){
+    margin-bottom: 25px;
+}
+
+.devices-description li:nth-child(odd) span {
+    letter-spacing: -1px;
+    margin-left: -1px;
+}
+                                                /*FOOTER*/
+footer {
+    background-color: #4c4c4c;
+    height: 62px;
+    box-shadow: -0.105px -3.998px 6px -2px rgba(0,0,0,0.75);
+}
+
+
+.footer-logo {
+    display: flex;
+    width: 320px;
+    height: 84px;
+}
+
+.footer-logo-picture {
+    width: 54px;
+    height: 54px;
+    background-image: url("./assets/images/theyalow_logo.svg");
+    background-size: cover;
+    margin-top: 4px;
+}
+
+footer h2 {
+    font-size: 27px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', Verdana, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+    margin: 18px 0 0 6px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+h2 .logo-letters {
+    letter-spacing: 2px;
+}
+                                                      /*MEDIA*/
+@media screen and (max-width:640px){
+                                                     /*HEADER MOBILE*/
+    body, .wrapper-width {
+        width:640px;
+    }
+
+    header {
+      height: 62px;
+        background-color: black;
+        font-size: 19px;
+    }
+
+    .background-header {
+        min-height: 62px;
+        background-image: none;
+         }
+
+    .header-logo {
+        width: 186px;
+        height: 62px;
+        background-image: url("./assets/images/backgr_mob1.png");
+    }
+
+    .header-logo-picture {
+        width: 40px;
+        height: 39px;
+        background-image: url("./assets/images/theyalow_logo.svg");
+        background-size: cover;
+        margin: 10px 0 0 12px;
+    }
+
+    h1 {
+        margin: 24px 0 0 7px;
+        font-size: 19px;
+    }
+
+    .logo-letters {
+        letter-spacing: 0.7px;
+    }
+
+    nav .main-menu {
+        width: 454px;
+        height: 62px;
+        box-shadow: none;
+    }
+
+    .main-menu a {
+        font-size: 19px;
+        line-height: 38px;
+    }
+
+    .menu-company a {
+        padding-left: 58px;
+        width: 172px;
+    }
+
+    .menu-services a {
+        padding-left: 36px;
+        width: 131px;
+    }
+
+    .menu-contact a {
+        padding-left: 50px;
+        width: 147px;
+    }
+
+    .menu-company::before {
+        background-repeat: no-repeat;
+        width: 24px;
+        height: 22px;
+        margin: 21px 0 0 24px;
+    }
+
+    .menu-services::before {
+        width: 22px;background-repeat: no-repeat;
+        height: 22px;
+        margin: 21px 0 0 7px;
+    }
+
+    .menu-contact::before {
+        width: 28px;
+        background-repeat: no-repeat;
+        height: 21px;
+        margin: 21px 0 0 11px;
+    }
+
+                                              /*MAIN/VIDEO MOBILE*/
+     main {
+        margin: 0;
+    }
+
+    video {
+        width: 100%;
+    }
+
+    section.video-block {
+        height: 327px;
+        margin-bottom: 0;
+        }
+
+    .button-video-block-left, .button-video-block-right, .video-block-h2 {
+       display: none;
+    }
+
+    .video-text {
+        margin-left: 0;
+        margin-bottom: 0;
+    }
+
+                                             /*MAIN ICON AREA MOBILE*/
+    .advantages {
+        box-shadow: none;
+        height: 165px;
+        border: none;
+    }
+
+    .advantages .wrapper-width .better-design, .advantages .wrapper-width .customise, .advantages .wrapper-width .its-free {
+        border: none;
+    }
+
+    .advantages-name {
+        font-size: 23px;
+    }
+
+    .better-design svg {
+        width: 93px;
+        height: 68px;
+        margin: -41px 34px 15px 0;
+    }
+
+    .better-design h2 {
+        margin-left: -23px;
+    }
+
+    .customise svg {
+        width: 74px;
+        height: 69px;
+        margin: -44px 0 17px 13px;;
+    }
+
+    .customise  h2 {
+        margin-left: 18px;
+    }
+
+    .its-free svg {
+        width: 68px;
+        height:  75px;
+        margin: -44px 0 12px -9px;
+    }
+
+    .its-free h2 {
+        margin-right: -5px;
+    }
+
+                                          /*TWITTER MOBILE*/
+
+    .twitter-block {
+        position: relative;
+        background-image: none;
+        height: 489px;
+    }
+
+    .twitter-block .wrapper-width h2, .twitter-post .date,  .twitter-post-icon .twitter-icon, .range {
+        display: none;
+    }
+
+    .twitter-post-icon {
+        display: flex;
+        width: 640px;
+        flex-wrap: wrap;
+    }
+
+    .icon-twitts {
+        display: flex;
+    }
+
+    .twitter-post {
+        flex-wrap: nowrap;
+        height: 490px;
+    }
+
+    .twitter-post-text {
+        margin: 16px 9px 0 10px;
+        width: 299px;
+        height: 232px;
+        flex-wrap: wrap;
+    }
+
+    .twitter-post p {
+        margin: 16px 30px;
+        line-height: 33px;
+    }
+
+    .twitter-post-text a img {
+        margin: -2px 0 4px 275px;
+    }
+
+    .twitter-post video {
+        width: 315px;
+        margin-top: 15px;
+    }
+
+                                               /*FLEXIBILITY MOBILE*/
+
+    .flexibility {
+        height: 466px;
+    }
+
+    .flexibility .wrapper-width h2 {
+        line-height: 120px;
+        letter-spacing: 2.3px;
+        text-align: start;
+        margin-left: 18px;
+        width: 640px;
+        height: 130px;
+        font-size: 39px;
+    }
+
+    .devices {
+        position: relative;
+        height: 305px;
+        display: flex;
+        justify-content: space-between;
+        margin: 7px 0 0 18px;
+    }
+
+    .devices::before {
+        margin: -21px 0 0 9px;
+    }
+
+    .devices-icons {
+        width: 640px;
+        justify-content: space-around;
+    }
+
+    .devices-icons img:nth-child(1) {
+        margin: 20px 0 0 27px;
+    }
+
+    .devices-icons img:nth-child(2) {
+        margin: 62px 31px 0 0;
+    }
+
+    .devices-icons img:nth-child(3) {
+         margin: 172px 31px 0 -28px;
+    }
+
+    .devices-description {
+        display: none;
+    }
+
+
+                                             /*FOOTER MOBILE*/
+    footer {
+        height: 43px;
+     }
+
+    .footer-logo {
+        width: 142px;
+        height: 33px;
+        padding: 7px 0 0 66px;
+    }
+
+    .footer-logo-picture {
+        width: 30px;
+        height: 30px;
+        margin-top: 0;
+    }
+
+    footer h2 {
+        font-size: 17px;
+        margin: 8px 0 0 7px;
+        letter-spacing: 0.2px;
+    }
+
+    h2 .logo-letters {
+        letter-spacing: 0;
+    }
+}
+
+
+
+
+
+
+
