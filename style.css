@@ -233,3 +233,54 @@ h3 {
 .pointing-2 {
     display: none;
 }
+                                                   /*MEDIA*/
+@media screen and (max-width:640px) {
+
+    .wrapper {
+        height: 100vh;
+        width: 100%;
+        min-width: 400px;
+        border: none;
+    }
+                                         /*MEDIA/ BLOCK PERSONAL-INFO*/
+    .personal-info {
+        height: 173px;
+    }
+
+    img {
+        max-width: 150px;
+        max-height: 150px;
+        margin-right: 5px;
+    }
+
+    .wrapper-intro-personal-info {
+        width: 326px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .personal-info-h2 {
+        margin-bottom: 5px;
+    }
+
+    .links {
+        width: 100%;
+        line-height: 27px;
+        min-width: 246px;
+
+    }
+
+    .links span, .links a {
+        font-size: 17px;
+    }
+                                            /*MEDIA/ BLOCK EDUCATION*/
+    .head-list i {
+        font-size: 24px;
+        line-height: 28px;
+    }
+
+    .list-education li {
+        font-size: 14px;
+    }
