@@ -136,3 +136,73 @@ h2 {
     margin-left: 20px;
 }
 
+.slider-container {
+    width: 100%;
+    height: 410px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-project {
+    margin-left: 10px;
+    list-style-type: square;
+    list-style-position: inside;
+}
+
+
+.about-project {
+    width: 50%;
+    height: 100%;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    border-right: 2px solid rgb(18, 25, 64);
+}
+
+h3 {
+    font-size: 32px;
+    line-height: 90px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.list-project li {
+    font-size: 21px;
+}
+
+.list-project li span {
+    text-transform: uppercase;
+}
+
+.cover {
+    width: 270px;
+    height: 380px;
+    background-size: cover;
+    border-right: 2px solid rgb(18, 25, 64);
+}
+
+.cover-theyalow {
+    background-image: url("./images-portfolio/theyalow.jpg");
+}
+
+.cover-rep-design {
+    background-image: url("./images-portfolio/repair-design.jpg");
+}
+
+.click-image {
+    width: 170px;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+    align-self: flex-end;
+    padding: 10px;
+    margin: 30px 10px;
+    border: 2px solid #86878d;
+}
+
+.click-image i {
+    font-size: 30px;
+    line-height: 42px;
+}
