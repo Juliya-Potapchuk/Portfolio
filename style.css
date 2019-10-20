@@ -123,3 +123,16 @@ h2 {
 .years {
     font-weight: normal;
 }
+                                            /*BLOCK PROJECTS*/
+.pointing {
+    width: 200px;
+    color: white;
+    display: none;
+}
+
+.projects-h2{
+    font-weight: normal;
+    color: white;
+    margin-left: 20px;
+}
+
