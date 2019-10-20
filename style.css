@@ -284,3 +284,63 @@ h3 {
     .list-education li {
         font-size: 14px;
     }
+                                            /*MEDIA/ BLOCK PROJECTS*/
+    .wrapper-head-project {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .projects-h2 {
+        width: 40%;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .display-block {
+        display: block;
+    }
+
+    .pointing-span {
+        margin: 5px 10px;
+}
+
+    .swiper-container {
+        height: 245px;
+    }
+
+    h3 {
+        line-height: 46px;
+        font-size: 20px;
+    }
+
+    .about-project {
+        position: absolute;
+        background-color: #cccdd3;
+        border: 2px solid rgb(18, 25, 64);
+    }
+
+    .list-project li {
+        font-size: 21px;
+    }
+
+    .cover {
+        max-width: 563px;
+        min-width: 400px;
+        height: 245px;
+        border: none;
+    }
+
+    .click-image, .swiper-button-next, .swiper-button-prev {
+        display: none;
+    }
+
+    .pointing-2 {
+        font-size: 22px;
+        width:100%;
+        text-align: center;
+        color: white;
+        display: block;
+    }
+}
