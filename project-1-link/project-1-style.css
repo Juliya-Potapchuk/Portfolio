@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+.button-group {
+    position: absolute;
+    top: 119px;
+    right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    line-height: 45px;
+    text-align: center;
+    font-family: "Arial", Verdana, sans-serif;
+    display: block;
+    width: 95px;
+    height: 45px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 8%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #cccdd3;
+}
+
+.button-group a {
+    text-decoration: none;
+    color: black;
+}
+
+.iframe {
+     width: 100%;
+     height: 100%;
+}
+
+ .mobile-width {
+     margin: 0 auto;
+     width: 640px;
+ }
+
+ .display-none {
+ display: none;
+ }
+
+@media screen and (max-width:640px) {
+    .mobile {
+        display: none;
+    }
+
+    .desktop {
+        display: none;
+    }
+}
+
