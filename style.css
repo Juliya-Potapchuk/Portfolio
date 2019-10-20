@@ -74,3 +74,52 @@ h2 {
     color: white;
     text-decoration: none;
 }
+                                         /*BLOCK EDUCATION*/
+.education {
+    width: 100%;
+    background-color: white;
+    box-sizing: border-box;
+    border-bottom: none;
+}
+
+.head-list {
+    width: 100%;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #cccdd3;
+    border-bottom: 2px solid rgb(18, 25, 64);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.head-list:hover, .links div:not(:last-child):hover {
+    background-color: #86878d;
+}
+
+.head-list i {
+    font-size: 38px;
+    line-height: 60px;
+    margin-right: 24px;
+}
+
+.list-education {
+   display: none;
+}
+
+.list-education-open {
+    display: block;
+}
+
+.list-education li {
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0 20px;
+    list-style: none;
+    border-bottom: 2px solid rgb(18, 25, 64);
+}
+
+.years {
+    font-weight: normal;
+}
