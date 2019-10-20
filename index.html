@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="./swiper/swiper.min.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/4fa8879ffc.css">
     <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
@@ -110,10 +111,23 @@
             </div>
             <p class="pointing-2">Swipe to see other</p>
         </section>
-
-
-
     </div>
+
     <script src="script.js"></script>
+    <script src="./swiper/swiper.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            cssMode: true,
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            pagination: {
+                el: '.swiper-pagination'
+            },
+            mousewheel: true,
+            keyboard: true,
+        });
+    </script>
 </body>
 </html>
