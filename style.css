@@ -2,3 +2,75 @@
     margin: 0;
     padding: 0;
 }
+
+body {
+    font-family: 'Poppins', Arial, sans-serif;
+    width: 100%;
+    background-image: url("./images-portfolio/pattern.jpg");
+    background-size: cover;
+}
+
+.wrapper {
+    width: 855px;
+    margin: 0 auto;
+    background-color: rgb(18, 25, 64);
+    border: 2px solid rgb(18, 25, 64);
+}
+                                              /*BLOCK PERSONAL-INFO*/
+.personal-info {
+    height: 280px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    margin-top: 10px;
+    border: 3px solid #84858a;
+}
+
+.wrapper-intro-personal-info {
+    color: white;
+    width: 409px;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    font-size: 38px;
+    text-transform: uppercase;
+}
+
+.personal-info-h2 {
+    letter-spacing: 3px;
+    text-align: start;
+    text-decoration: underline;
+    margin-bottom: 22px;
+}
+
+.links {
+    line-height: 40px;
+    max-height: 300px;
+    max-width: 409px;
+    box-sizing: border-box;
+    border: 2px solid #84858a;
+}
+
+.links div {
+    min-width: 226px;
+    margin-left: 10px;
+}
+
+.links a, .links span {
+    font-size: 23px;
+    margin-left: 10px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
