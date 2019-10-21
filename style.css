@@ -338,7 +338,7 @@ h3 {
         max-width: 563px;
         min-width: 400px;
         height: 245px;
-        border: 2px solid rgb(18, 25, 64);
+        border: 2px solid #cccdd3;
     }
 
     .click-image, .swiper-button-next, .swiper-button-prev {
