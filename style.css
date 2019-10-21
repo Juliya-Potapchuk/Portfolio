@@ -87,6 +87,7 @@ h2 {
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     background-color: #cccdd3;
     border-bottom: 2px solid rgb(18, 25, 64);
     box-sizing: border-box;
@@ -262,7 +263,8 @@ h3 {
     }
 
     .personal-info-h2 {
-        margin-bottom: 5px;
+        margin-bottom: 10px;
+        margin-top: 5px;
     }
 
     .links {
@@ -276,6 +278,11 @@ h3 {
         font-size: 17px;
     }
                                             /*MEDIA/ BLOCK EDUCATION*/
+
+    .head-list {
+        height: 43px;
+    }
+
     .head-list i {
         font-size: 24px;
         line-height: 28px;
@@ -288,6 +295,8 @@ h3 {
     .wrapper-head-project {
         display: flex;
         justify-content: space-between;
+        align-items: center;
+        height: 43px;
     }
 
     .projects-h2 {
@@ -307,7 +316,7 @@ h3 {
 }
 
     .swiper-container {
-        height: 245px;
+        height: 275px;
     }
 
     h3 {
@@ -329,7 +338,7 @@ h3 {
         max-width: 563px;
         min-width: 400px;
         height: 245px;
-        border: none;
+        border: 2px solid rgb(18, 25, 64);
     }
 
     .click-image, .swiper-button-next, .swiper-button-prev {
